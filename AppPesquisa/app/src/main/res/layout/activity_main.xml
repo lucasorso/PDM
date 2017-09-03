@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.orsomob.apppesquisa.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_view_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_pesquisa"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_ruim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_view_info"
+        android:text="@string/ruim"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_bom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_ruim"
+        android:text="@string/bom"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/txt_view_op_sistema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_bom"
+        android:text="@string/operacoes_sistema"/>
+
+    <Button
+        android:id="@+id/btn_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_view_op_sistema"
+        android:text="@string/resulta_pesquisa"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_inicia_pesquisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_resultado"
+        android:text="@string/iniciar_pesquisa"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_exportar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_inicia_pesquisa"
+        android:text="@string/exportar_dados"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

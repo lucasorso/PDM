@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReservaMesas</string>
+    <string name="reservar">Reservar</string>
+    <string name="um">1</string>
+    <string name="liberar_mesa">Liberar Mesa</string>
+    <string name="salvar_operacao">Salvar Operação</string>
+    <string name="numero_mesa">Número Mesa</string>
+</resources>

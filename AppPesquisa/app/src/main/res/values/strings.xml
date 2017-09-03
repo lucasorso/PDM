@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppPesquisa</string>
+    <string name="info_pesquisa">Pesquisa de Opinião sobre a qualidade de Ensino da UTFPR-PB</string>
+    <string name="ruim">Ruim</string>
+    <string name="operacoes_sistema">Operações do Sistema</string>
+    <string name="bom">Bom</string>
+    <string name="resulta_pesquisa">Resultado da Pesquisa</string>
+    <string name="iniciar_pesquisa">Iniciar Pesquisa</string>
+    <string name="quantidade_pesquisas">Quantidade de Ruim: %1$d.\nQuantidade de Bom: %2$d.</string>
+    <string name="exportar_dados">Exportar Dados para SD</string>
+</resources>
